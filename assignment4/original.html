@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="products_style.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -14,8 +16,8 @@
             <div id="logo"> <a href="index.html"> <img src="images/logo.png" alt="logo"> </a> </div>
             <nav>
                 <a href="products.html">Cinnamons</a>
-                <a href="index.html">About</a>
-                <a href="index.html">Cart</a>
+                <a href="#">About</a>
+                <a href="cart.html" id="cart">Cart</a>
             </nav>
         </header>
 
@@ -34,16 +36,16 @@
             
             <div class="column1">
                 <p class="question"> Which glazing would you like?</p>
-                <button> None </button> <button> Sugar Milk </button> <button> Vanilla Milk </button> <button> Double Chocolate </button>
+                <button class="glaze" id="glazeNone"> None </button> <button class="glaze" id="glazeSugar"> Sugar Milk </button> <button class="glaze" id="glazeVanilla"> Vanilla Milk </button> <button class="glaze" id="glazeChocolate"> Double Chocolate </button>
             </div>
 
             <div class="column1">
                 <p class="question"> How many would you like?</p>
-                <button> 1 </button> <button> 3 </button> <button> 6 </button> <button> 9 </button>
+                <button class="quantity" id="quant1"> 1 </button> <button class="quantity" id="quant3"> 3 </button> <button class="quantity" id="quant6"> 6 </button> <button class="quantity" id="quant9"> 9 </button>
             </div>
 
             <div class="column1">
-                <h2> $3.00 </h2>
+                <h2 id="price"> $3.00 </h2>
             </div>
 
             <div class="column1">
