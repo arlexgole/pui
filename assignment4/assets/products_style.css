@@ -1,3 +1,5 @@
+/*css for products page, product detail page, and cart page*/
+
 body{
 	font-family: 'Roboto', sans-serif;
 }
@@ -45,6 +47,7 @@ nav a{
 	width: 33%;
 }
 
+/*css for product detail page*/
 .content .column1{
 	float: left;
 	margin: 0;
@@ -84,6 +87,7 @@ h2{
 	font-size: 18px;
 }
 
+/*for product detail page (add to card)*/
 #add{
 	background-color: #4CAF50;
 	border: none;
@@ -100,11 +104,6 @@ h2{
 	margin-top: 0px;
 }
 
-/*#cart{
-	position: absolute;
-	margin-right: 0px;
-
-}*/
 
 button{
 	margin-top: 15px;
@@ -123,4 +122,29 @@ button{
 
 #active{
 	text-decoration: underline;
+}
+/*
+css for the cart page*/
+.cart-image{
+	width: 100px;
+}
+
+#cart-row{
+	margin-left: 30%;
+}
+
+#checkout{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px 0 rgba(0,0,0,0.15), 0 3px 7px 0 rgba(0,0,0,0.08);
+	margin-left: 100px;
+	margin-top: 15px;
 }
