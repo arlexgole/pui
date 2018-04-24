@@ -1,0 +1,182 @@
+/*setting the font and font color */
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+/*making the image fit the entire page*/
+img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+/* First page: heading*/
+#nepal{
+	position: absolute;
+	top: 5px;
+	margin-top: 10px;
+	margin-left: 40%;
+	font-size: 100px;
+}
+
+/*First page: arrow icon*/
+#arrow{
+	position: absolute;
+	top: 85%;
+	margin-left: 48%;
+	width: 50px;
+	height: 50px;
+}
+
+#arrowImage{
+	opacity: 0;
+}
+
+/*All pages: heading*/
+.heading{
+	font-size: 100px;
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 200px;
+	opacity: 0;
+}
+
+/*All pages: paragraph*/
+p{
+	color: white;
+	font-size: 25px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	/*	setting 0 to intialize*/
+	opacity: 0;
+}
+
+/*intial values of the text*/
+.text2, .text4{
+	margin-top: 250px;
+	opacity: 0;
+}
+
+/*intial values of the text and info */
+.info1, .info2, .info3, .text5, .text6, .text7{
+	opacity: 0;
+}
+
+.text8{
+	opacity: 0;
+	margin-top: 25px;
+	padding: 0px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.text8 a{
+	color: white;
+	text-decoration: none;
+}
+/*Third page: info box*/
+.info{
+	width: 350px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 5px;
+}
+
+/*Third page: info text*/
+.info p{
+	margin-top: 12px;
+	margin-bottom: 0px;
+	color: white;
+	opacity: 1;
+	width: 100%;
+	text-align: center;
+}
+
+/*Fourth page: caption title  */
+.caption{
+	position: absolute;
+	top: 10px;
+	font-size: 70px;
+	margin-left: 100px;
+}
+
+/*Fourth page: caption info  */
+.caption1{
+	position: absolute;
+	top: 50px;
+	opacity: 1;
+	margin-left: 100px;
+}
+
+/*Fifth page:food image */
+.food{
+	width: auto;
+	height: auto;
+}
+
+/*Fifth page: food caption title */
+.foodCaption{
+	opacity: 1;
+	margin: 0;
+	padding-top: 5px;
+	font-size: 20px;
+	font-weight: 700;
+	width: auto;
+}
+
+/*Fifth page: food caption info */
+.foodCaption1{
+	opacity: 1;
+	margin: 0;
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 15px;
+	width: 95%;
+}
+
+/*Fifth page: food card*/
+.card{
+	width: 400px;
+	height: 120px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #283442;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+/*Fifth page: food image*/
+.card img{
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 20px;
+	float: left;
+	border-radius: 5px;
+}
+
+/*making it responsive*/
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    .heading, .caption{
+    	font-size: 30px;
+    }
+    p{
+    	font-size: 20px;
+    	width: 300px;
+    }
+    #nepal{
+    	font-size: 50px;
+    }
+}
